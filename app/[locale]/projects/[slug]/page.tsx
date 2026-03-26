@@ -8,6 +8,7 @@ import { Link } from "@/lib/i18n/navigation";
 import type { AppLocale } from "@/lib/i18n/routing";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 type ProjectDetailPageProps = {
   params: Promise<{ locale: AppLocale; slug: string }>;
@@ -18,6 +19,27 @@ export function generateStaticParams() {
     { locale: "en", slug: project.slug },
     { locale: "es", slug: project.slug },
   ]);
+}
+
+export async function generateMetadata({
+  params,
+}: ProjectDetailPageProps): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const project = getProjectBySlug(slug);
+
+  if (!project) {
+    return {
+      title: locale === "es" ? "Proyecto no encontrado" : "Project not found",
+    };
+  }
+
+  const title = locale === "es" ? project.titleEs : project.title;
+  const summary = locale === "es" ? project.summaryEs : project.summary;
+
+  return {
+    title: `${title} | Leandro David Bechara`,
+    description: summary,
+  };
 }
 
 export default async function ProjectDetailPage({ params }: ProjectDetailPageProps) {

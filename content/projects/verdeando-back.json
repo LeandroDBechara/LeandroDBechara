@@ -5,11 +5,11 @@
   "year": 2024,
   "status": "production",
   "category": "backend",
-  "thumbnail": "/projects/verdeando-back/cover.png",
+  "thumbnail": "/projects/placeholder.svg",
   "gallery": [
-    "/projects/verdeando-back/api-1.png",
-    "/projects/verdeando-back/api-2.png",
-    "/projects/verdeando-back/api-3.png"
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg"
   ],
   "technologies": ["NestJS", "Prisma", "PostgreSQL", "TypeScript"],
   "github": "https://github.com/LeandroDBechara/VerdeandoBack",

@@ -5,11 +5,11 @@
   "year": 2024,
   "status": "production",
   "category": "mobile",
-  "thumbnail": "/projects/verdeando-app/cover.png",
+  "thumbnail": "/projects/placeholder.svg",
   "gallery": [
-    "/projects/verdeando-app/screen-1.png",
-    "/projects/verdeando-app/screen-2.png",
-    "/projects/verdeando-app/screen-3.png"
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg"
   ],
   "technologies": ["React Native", "TypeScript", "NestJS", "PostgreSQL"],
   "github": "https://github.com/LeandroDBechara/VerdeandoApp",

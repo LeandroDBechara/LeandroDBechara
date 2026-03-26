@@ -5,11 +5,11 @@
   "year": 2022,
   "status": "open-source",
   "category": "web",
-  "thumbnail": "/projects/dgt-web/cover.png",
+  "thumbnail": "/projects/placeholder.svg",
   "gallery": [
-    "/projects/dgt-web/screen-1.png",
-    "/projects/dgt-web/screen-2.png",
-    "/projects/dgt-web/screen-3.png"
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg"
   ],
   "technologies": ["JavaScript", "HTML", "CSS"],
   "github": "https://github.com/LeandroDBechara/DGT_Web",

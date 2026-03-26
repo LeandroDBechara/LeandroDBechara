@@ -5,11 +5,11 @@
   "year": 2023,
   "status": "open-source",
   "category": "game",
-  "thumbnail": "/projects/verdeando-the-game/cover.png",
+  "thumbnail": "/projects/placeholder.svg",
   "gallery": [
-    "/projects/verdeando-the-game/scene-1.png",
-    "/projects/verdeando-the-game/scene-2.png",
-    "/projects/verdeando-the-game/scene-3.png"
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg"
   ],
   "technologies": ["Unity", "C#", "ShaderLab"],
   "github": "https://github.com/LeandroDBechara/VerdeandoTheGame",

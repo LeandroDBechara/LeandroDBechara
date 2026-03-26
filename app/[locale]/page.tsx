@@ -8,6 +8,7 @@ import type { AppLocale } from "@/lib/i18n/routing";
 import { getFeaturedProjects } from "@/lib/projects";
 import { getTranslations } from "next-intl/server";
 import { Mail } from "lucide-react";
+import type { Metadata } from "next";
 
 type HomePageProps = {
   params: Promise<{ locale: AppLocale }>;
@@ -19,6 +20,22 @@ const skillGroups = {
   backend: ["Node.js", "Prisma", "PostgreSQL", "MySQL", "SQL Server"],
   tools: ["Docker", "Google Cloud", "Git", "Framer Motion", "Tailwind CSS"],
 } as const;
+
+export async function generateMetadata({
+  params,
+}: HomePageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const isSpanish = locale === "es";
+
+  return {
+    title: isSpanish
+      ? "Leandro David Bechara | Portfolio"
+      : "Leandro David Bechara | Portfolio",
+    description: isSpanish
+      ? "Ingeniero de Sistemas, desarrollador Mobile y Web. Portfolio con proyectos, skills y contacto."
+      : "Information Systems Engineer, Mobile & Web Developer. Portfolio with projects, skills and contact.",
+  };
+}
 
 export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;

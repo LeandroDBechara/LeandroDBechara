@@ -5,11 +5,11 @@
   "year": 2023,
   "status": "production",
   "category": "web",
-  "thumbnail": "/projects/metalc-net/cover.png",
+  "thumbnail": "/projects/placeholder.svg",
   "gallery": [
-    "/projects/metalc-net/screen-1.png",
-    "/projects/metalc-net/screen-2.png",
-    "/projects/metalc-net/screen-3.png"
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg",
+    "/projects/placeholder.svg"
   ],
   "technologies": [".NET", "C#", "SQL Server"],
   "github": "https://github.com/LeandroDBechara/MetalC.net",
