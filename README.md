@@ -2,30 +2,21 @@
 
 # Leandro David Bechara
 
-**Information Systems Engineer · Mobile & Web Developer**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&center=true&vCenter=true&width=435&lines=Information+Systems+Engineer;Coffe+lover+%3C3;Puzzle+addict%F0%9F%A7%A9;Jojo+fan+%F0%9F%8F%87%F0%9F%8F%BB;Indie+gamer%F0%9F%91%BE;Ah+shit%2C+here+we+go+again%F0%9F%9A%B6%F0%9F%8F%BE%E2%80%8D%E2%99%82%EF%B8%8F%E2%80%8D%E2%9E%A1%EF%B8%8F)](https://git.io/typing-svg)
 
 </div>
 
----
 
-## About Me
+## 👨🏻‍💻 About Me
 
-<p>
-I build <strong>mobile and web applications</strong> with a focus on clean architecture and maintainable code. I enjoy <strong>video games</strong>, <strong>puzzles</strong>, and <strong>coffee</strong>.
-</p>
+💡 &nbsp;I like to explore new technologies and develop software solutions.\
+🎓 &nbsp;I graduated as an information systems engineer from the Technological University of Tucumán..\
+🌱 &nbsp;I'm on track for learning more about Artificial Intelligence, Systems Design, and Cloud Architecture.\
+✍️ &nbsp;In my free time, I like to talk about games, anime, and bad jokes.\
+✉️ &nbsp;You can shoot me an email at leodbechara@gmail.com! I'll try to respond as soon as I can.\
 
-<p>
-I currently work at <strong>Dodo Games</strong>.
-</p>
 
-<p>
-Pinned work spans TypeScript backends and clients, C# / .NET projects, NestJS APIs, and shader-heavy game tech—see
-<a href="https://github.com/LeandroDBechara?tab=repositories">my repositories</a>.
-</p>
-
----
-
-## Skills
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
 
 <p align="center">Technologies grouped by frontend, frameworks, backend, and other tooling.</p>
 
@@ -157,32 +148,30 @@ Pinned work spans TypeScript backends and clients, C# / .NET projects, NestJS AP
       <br /><sub><b>Cursor</b></sub>
     </td>
     <td align="center" width="96">
-      <a href="https://opencode.ai"><img src="[https://github.com/anomalyco.png?size=128](https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/opencode.svg)" width="48" height="48" alt="OpenCode" /></a>
+      <a href="https://opencode.ai"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/opencode-dark.svg" width="48" height="48" alt="OpenCode" /></a>
       <br /><sub><b>OpenCode</b></sub>
     </td>
   </tr>
 </table>
 
----
 
-## Github Stats
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
-<div align="center">
 
-<table>
-  <tr>
-    <td valign="top" align="center">
+
+<table align="center">
+  <tr >
+    <td >
       <p><b>Profile statistics</b></p>
       <img  alt="LeandroDBechara's GitHub Stats" src="https://awesome-github-stats.azurewebsites.net/user-stats/LeandroDBechara?cardType=level&theme=tokyonight&fontFamily=&preferLogin=false" />
     </td>
-    <td valign="top" align="center">
+    <td valign="top" align="center" style="border: 0; border-width: 0; padding: 8px 24px;">
       <p><b>Most used languages</b></p>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeandroDBechara&layout=compact&theme=tokyonight&hide_border=false&langs_count=8" alt="Most used languages" height="195" />
     </td>
   </tr>
 </table>
 
-</div>
 
 ---
 
@@ -201,6 +190,6 @@ Pinned work spans TypeScript backends and clients, C# / .NET projects, NestJS AP
 </div>
 
 <p align="center">
-  <sub>Stats cards by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · Streak by <a href="https://github.com/DenverCoder1/github-readme-streak-stats">github-readme-streak-stats</a></sub>
+  <sub>Stats cards by <a href="https://github.com/anuraghazra/github-readme-stats">Awesome GitHub Stats</a> · Streak by <a href="https://github.com/DenverCoder1/github-readme-streak-stats">github-readme-streak-stats</a></sub>
 </p>
 
