@@ -1,0 +1,44 @@
+{
+  "slug": "verdeando-the-game",
+  "title": "VerdeandoTheGame",
+  "titleEs": "VerdeandoTheGame",
+  "year": 2023,
+  "status": "open-source",
+  "category": "game",
+  "thumbnail": "/projects/verdeando-the-game/cover.png",
+  "gallery": [
+    "/projects/verdeando-the-game/scene-1.png",
+    "/projects/verdeando-the-game/scene-2.png",
+    "/projects/verdeando-the-game/scene-3.png"
+  ],
+  "technologies": ["Unity", "C#", "ShaderLab"],
+  "github": "https://github.com/LeandroDBechara/VerdeandoTheGame",
+  "summary": "Experimental game project in Unity exploring custom visual styles with shader techniques.",
+  "summaryEs": "Proyecto experimental en Unity explorando estilos visuales personalizados con shaders.",
+  "problem": "I wanted to learn game rendering pipelines and create a project where visuals played a central role.",
+  "problemEs": "Queria aprender pipelines de render en juegos y crear un proyecto donde lo visual fuera central.",
+  "solution": "I built gameplay prototypes in Unity and crafted custom shaders in ShaderLab for distinct scenes.",
+  "solutionEs": "Construi prototipos jugables en Unity y cree shaders en ShaderLab para escenas distintivas.",
+  "challenges": [
+    "Balancing game feel with rendering complexity",
+    "Debugging shader behavior across scene lighting",
+    "Keeping frame times stable during visual effects"
+  ],
+  "challengesEs": [
+    "Balancear game feel con complejidad de render",
+    "Depurar shaders con diferentes condiciones de luz",
+    "Mantener FPS estables durante efectos visuales"
+  ],
+  "features": [
+    "Custom shader-based visual style",
+    "Prototype gameplay loops",
+    "Reusable scene and material setup"
+  ],
+  "featuresEs": [
+    "Estilo visual basado en shaders personalizados",
+    "Bucles de gameplay prototipo",
+    "Setup reutilizable de escenas y materiales"
+  ],
+  "architecture": "Unity scenes and gameplay scripts with ShaderLab materials driving visual identity.",
+  "architectureEs": "Escenas y scripts en Unity con materiales ShaderLab como base de identidad visual."
+}

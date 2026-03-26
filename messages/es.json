@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Leandro David Bechara",
+    "tagline": "Ingeniero de Sistemas · Desarrollador Mobile y Web",
+    "description": "Construyo soluciones de software que marcan la diferencia. Apasionado por el codigo limpio, el diseno de sistemas y productos digitales que la gente disfruta.",
+    "cta_projects": "Ver Proyectos",
+    "cta_contact": "Contactame"
+  },
+  "nav": {
+    "projects": "Proyectos",
+    "skills": "Skills",
+    "contact": "Contacto",
+    "open_menu": "Abrir menu de navegacion",
+    "close_menu": "Cerrar menu de navegacion",
+    "switch_to_en": "Cambiar idioma a ingles",
+    "switch_to_es": "Cambiar idioma a espanol"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajos en mobile, backend, web y desarrollo de videojuegos.",
+    "preview_title": "Proyectos Destacados",
+    "view_project": "Ver Proyecto",
+    "view_all": "Ver Todos los Proyectos",
+    "view_live": "Ver Online",
+    "view_source": "Ver Codigo Fuente",
+    "download_apk": "Descargar APK",
+    "problem_solution": "Problema y Solucion",
+    "problem": "Problema",
+    "solution": "Solucion",
+    "technical_stack": "Stack Tecnico",
+    "key_features": "Features Principales",
+    "main_challenges": "Desafios Principales",
+    "status": {
+      "production": "En Produccion",
+      "development": "En Desarrollo",
+      "open-source": "Codigo Abierto"
+    },
+    "category": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "game": "Game",
+      "backend": "Backend"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Tecnologias con las que construyo software confiable.",
+    "categories": {
+      "languages": "Lenguajes y Markup",
+      "frameworks": "Frameworks y Librerias",
+      "backend": "Backend y Base de Datos",
+      "tools": "Herramientas y Plataformas"
+    }
+  },
+  "contact": {
+    "title": "Conectemos",
+    "subtitle": "Abierto a oportunidades. No dudes en escribirme.",
+    "email": "Enviame un Email",
+    "availability": "Ubicado en Tucuman, Argentina (UTC-3)",
+    "open_to_work": "Abierto a oportunidades"
+  },
+  "footer": {
+    "copyright": "Hecho con Next.js · {year}",
+    "made_with": "Disenado y Desarrollado por LeandroDBechara"
+  },
+  "notFound": {
+    "title": "Pagina no encontrada",
+    "description": "La pagina que buscabas no existe.",
+    "backHome": "Ir al inicio"
+  }
+}

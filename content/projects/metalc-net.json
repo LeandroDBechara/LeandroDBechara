@@ -1,0 +1,44 @@
+{
+  "slug": "metalc-net",
+  "title": "MetalC.net",
+  "titleEs": "MetalC.net",
+  "year": 2023,
+  "status": "production",
+  "category": "web",
+  "thumbnail": "/projects/metalc-net/cover.png",
+  "gallery": [
+    "/projects/metalc-net/screen-1.png",
+    "/projects/metalc-net/screen-2.png",
+    "/projects/metalc-net/screen-3.png"
+  ],
+  "technologies": [".NET", "C#", "SQL Server"],
+  "github": "https://github.com/LeandroDBechara/MetalC.net",
+  "summary": "Web platform built with .NET focused on robust business workflows and data management.",
+  "summaryEs": "Plataforma web construida en .NET enfocada en flujos de negocio robustos y gestion de datos.",
+  "problem": "The project required a stable enterprise-oriented web solution for operational processes.",
+  "problemEs": "El proyecto requeria una solucion web orientada a empresa para procesos operativos.",
+  "solution": "I implemented core modules in .NET with a structured backend and relational data design.",
+  "solutionEs": "Implemente modulos core en .NET con backend estructurado y diseno relacional de datos.",
+  "challenges": [
+    "Aligning technical implementation with business rules",
+    "Designing maintainable backend modules in C#",
+    "Ensuring reliable SQL Server data flows"
+  ],
+  "challengesEs": [
+    "Alinear implementacion tecnica con reglas de negocio",
+    "Disenar modulos backend mantenibles en C#",
+    "Asegurar flujos de datos confiables en SQL Server"
+  ],
+  "features": [
+    "Business-oriented management modules",
+    "Role-based web workflows",
+    "Structured persistence layer"
+  ],
+  "featuresEs": [
+    "Modulos de gestion orientados al negocio",
+    "Flujos web por roles",
+    "Capa de persistencia estructurada"
+  ],
+  "architecture": "Layered .NET architecture with SQL Server persistence and domain-driven module separation.",
+  "architectureEs": "Arquitectura en capas con .NET, persistencia SQL Server y separacion de modulos por dominio."
+}

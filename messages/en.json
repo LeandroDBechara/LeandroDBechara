@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Leandro David Bechara",
+    "tagline": "Information Systems Engineer · Mobile & Web Developer",
+    "description": "I build software solutions that make a difference. Passionate about clean code, system design, and digital products users love.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me"
+  },
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "open_menu": "Open navigation menu",
+    "close_menu": "Close navigation menu",
+    "switch_to_en": "Switch language to English",
+    "switch_to_es": "Switch language to Spanish"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work across mobile, backend, web and game development.",
+    "preview_title": "Featured Projects",
+    "view_project": "View Project",
+    "view_all": "View All Projects",
+    "view_live": "View Live",
+    "view_source": "View Source Code",
+    "download_apk": "Download APK",
+    "problem_solution": "Problem & Solution",
+    "problem": "Problem",
+    "solution": "Solution",
+    "technical_stack": "Technical Stack",
+    "key_features": "Key Features",
+    "main_challenges": "Main Challenges",
+    "status": {
+      "production": "In Production",
+      "development": "In Development",
+      "open-source": "Open Source"
+    },
+    "category": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "game": "Game",
+      "backend": "Backend"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I use to ship reliable software.",
+    "categories": {
+      "languages": "Languages & Markup",
+      "frameworks": "Frameworks & Libraries",
+      "backend": "Backend & Databases",
+      "tools": "Tools & Platforms"
+    }
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Open to opportunities. Feel free to reach out.",
+    "email": "Email Me",
+    "availability": "Based in Tucuman, Argentina (UTC-3)",
+    "open_to_work": "Open to opportunities"
+  },
+  "footer": {
+    "copyright": "Built with Next.js · {year}",
+    "made_with": "Designed & Developed by LeandroDBechara"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist.",
+    "backHome": "Go to home"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "verdeando-app",
+  "title": "VerdeandoApp",
+  "titleEs": "VerdeandoApp",
+  "year": 2024,
+  "status": "production",
+  "category": "mobile",
+  "thumbnail": "/projects/verdeando-app/cover.png",
+  "gallery": [
+    "/projects/verdeando-app/screen-1.png",
+    "/projects/verdeando-app/screen-2.png",
+    "/projects/verdeando-app/screen-3.png"
+  ],
+  "technologies": ["React Native", "TypeScript", "NestJS", "PostgreSQL"],
+  "github": "https://github.com/LeandroDBechara/VerdeandoApp",
+  "apk": "",
+  "summary": "Mobile app focused on plant care and sustainable habits with guided user journeys.",
+  "summaryEs": "Aplicacion mobile enfocada en cuidado de plantas y habitos sostenibles con recorridos guiados.",
+  "problem": "People interested in sustainability often need practical, daily guidance and quick access to trusted information.",
+  "problemEs": "Las personas interesadas en sostenibilidad necesitan guia practica diaria y acceso rapido a informacion confiable.",
+  "solution": "I built a mobile-first experience that centralizes plant care tips, educational content and progress tracking.",
+  "solutionEs": "Construí una experiencia mobile-first que centraliza consejos de cuidado, contenido educativo y seguimiento de progreso.",
+  "challenges": [
+    "Designing a clear onboarding flow for non-technical users",
+    "Keeping mobile performance consistent on low-end devices",
+    "Synchronizing app data with backend services"
+  ],
+  "challengesEs": [
+    "Disenar un onboarding claro para usuarios no tecnicos",
+    "Mantener rendimiento estable en dispositivos de gama baja",
+    "Sincronizar los datos de la app con servicios backend"
+  ],
+  "features": [
+    "Plant profile and care recommendations",
+    "Educational sustainability content",
+    "Progress-oriented UX and reminders"
+  ],
+  "featuresEs": [
+    "Perfiles de plantas y recomendaciones de cuidado",
+    "Contenido educativo sobre sostenibilidad",
+    "UX orientada a progreso y recordatorios"
+  ],
+  "architecture": "React Native client consuming API endpoints, with modular features for onboarding, catalog and tracking.",
+  "architectureEs": "Cliente React Native consumiendo endpoints API, con modulos para onboarding, catalogo y seguimiento."
+}

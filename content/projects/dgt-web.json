@@ -1,0 +1,44 @@
+{
+  "slug": "dgt-web",
+  "title": "DGT_Web",
+  "titleEs": "DGT_Web",
+  "year": 2022,
+  "status": "open-source",
+  "category": "web",
+  "thumbnail": "/projects/dgt-web/cover.png",
+  "gallery": [
+    "/projects/dgt-web/screen-1.png",
+    "/projects/dgt-web/screen-2.png",
+    "/projects/dgt-web/screen-3.png"
+  ],
+  "technologies": ["JavaScript", "HTML", "CSS"],
+  "github": "https://github.com/LeandroDBechara/DGT_Web",
+  "summary": "Web project built with JavaScript, HTML and CSS, focused on solid front-end fundamentals.",
+  "summaryEs": "Proyecto web construido con JavaScript, HTML y CSS, enfocado en bases solidas de front-end.",
+  "problem": "The goal was to build and polish practical web development skills through a complete project.",
+  "problemEs": "El objetivo fue construir y pulir habilidades practicas de desarrollo web con un proyecto completo.",
+  "solution": "I delivered a clean web implementation with interactive sections and reusable UI patterns.",
+  "solutionEs": "Entregue una implementacion web limpia con secciones interactivas y patrones UI reutilizables.",
+  "challenges": [
+    "Organizing project structure without a framework",
+    "Maintaining visual consistency across pages",
+    "Building responsive layouts from scratch"
+  ],
+  "challengesEs": [
+    "Organizar estructura del proyecto sin framework",
+    "Mantener consistencia visual entre paginas",
+    "Construir layouts responsive desde cero"
+  ],
+  "features": [
+    "Responsive user interface",
+    "Vanilla JavaScript interactions",
+    "Reusable CSS components"
+  ],
+  "featuresEs": [
+    "Interfaz responsive",
+    "Interacciones en JavaScript vanilla",
+    "Componentes CSS reutilizables"
+  ],
+  "architecture": "Static web architecture with modular JavaScript and component-style CSS organization.",
+  "architectureEs": "Arquitectura web estatica con JavaScript modular y organizacion CSS tipo componentes."
+}
