@@ -33,13 +33,20 @@
     "status": {
       "production": "En Produccion",
       "development": "En Desarrollo",
-      "open-source": "Codigo Abierto"
+      "open-source": "Codigo Abierto",
+      "completed": "Completado",
+      "in-progress": "En Progreso",
+      "paused": "Pausado",
+      "cancelled": "Cancelado",
+      "practice learning project": "Proyecto de Aprendizaje"
     },
     "category": {
       "web": "Web",
       "mobile": "Mobile",
       "game": "Game",
-      "backend": "Backend"
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "full-stack": "Full-Stack"
     }
   },
   "skills": {

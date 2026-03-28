@@ -2,10 +2,9 @@
 
 import { Menu, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
-import { Link } from "@/lib/i18n/navigation";
+import { useState } from "react";
+import { Link, usePathname } from "@/lib/i18n/navigation";
 import type { AppLocale } from "@/lib/i18n/routing";
-import { cn } from "@/lib/utils";
 import { LanguageToggle } from "./LanguageToggle";
 
 type HeaderProps = {
@@ -16,43 +15,26 @@ export function Header({ showSectionLinks = true }: HeaderProps) {
   const locale = useLocale() as AppLocale;
   const t = useTranslations("nav");
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const [progress, setProgress] = useState(0);
+  const pathname = usePathname();
 
-  useEffect(() => {
-    const onScroll = () => {
-      const y = window.scrollY;
-      const height = document.documentElement.scrollHeight - window.innerHeight;
-      const nextProgress = height > 0 ? (y / height) * 100 : 0;
-      setProgress(Math.min(Math.max(nextProgress, 0), 100));
-      setScrolled(y > 16);
-    };
+  // Detect if we're on the home page (root or /es)
+  const isHomePage = pathname === "/" || pathname === "/es";
 
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  // If showSectionLinks is explicitly false, or we're not on home, use full paths
+  const useAnchors = showSectionLinks && isHomePage;
 
   const links = [
-    { href: "/projects", label: t("projects") },
-    { href: showSectionLinks ? "#skills" : "/#skills", label: t("skills") },
-    { href: showSectionLinks ? "#contact" : "/#contact", label: t("contact") },
+    
+    { href: useAnchors ? "#skills" : "/#skills", label: t("skills") },
+    { href: useAnchors ? "#projects" : "/projects", label: t("projects") },
+    { href: useAnchors ? "#contact" : "/#contact", label: t("contact") },
   ];
 
   return (
-    <header
-      className={cn(
-        "fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-200",
-        scrolled ? "bg-[color-mix(in_oklab,var(--bg-primary)_80%,transparent)] backdrop-blur-md border-[var(--border)]" : "bg-transparent"
-      )}
-    >
-      <div
-        className="h-0.5 bg-[var(--accent)] transition-[width] duration-200"
-        style={{ width: `${progress}%` }}
-      />
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-[var(--border)] bg-[var(--bg-primary)]">
       <div className="container-width flex h-16 items-center justify-between gap-4">
         <Link href="/" locale={locale} className="text-sm font-bold uppercase tracking-[0.12em]">
-          LeandroDBechara
+          Leandro Bechara
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">

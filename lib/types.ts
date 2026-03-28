@@ -1,5 +1,5 @@
-export type ProjectStatus = "production" | "development" | "open-source";
-export type ProjectCategory = "web" | "mobile" | "game" | "backend";
+export type ProjectStatus = "production" | "development" | "open-source"| "completed" | "in-progress" | "paused" | "cancelled"| "practice learning project";
+export type ProjectCategory = "web" | "mobile" | "game" | "backend" | "frontend" | "full-stack";
 
 export type Project = {
   slug: string;

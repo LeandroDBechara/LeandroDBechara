@@ -2,14 +2,12 @@
   "slug": "metalc-net",
   "title": "MetalC.net",
   "titleEs": "MetalC.net",
-  "year": 2023,
-  "status": "production",
-  "category": "web",
-  "thumbnail": "/projects/placeholder.svg",
+  "year": 2026,
+  "status": "practice learning project",
+  "category": "full-stack",
+  "thumbnail": "/projects/dot-net.png",
   "gallery": [
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg"
+
   ],
   "technologies": [".NET", "C#", "SQL Server"],
   "github": "https://github.com/LeandroDBechara/MetalC.net",

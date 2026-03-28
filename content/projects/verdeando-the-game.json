@@ -2,43 +2,46 @@
   "slug": "verdeando-the-game",
   "title": "VerdeandoTheGame",
   "titleEs": "VerdeandoTheGame",
-  "year": 2023,
-  "status": "open-source",
+  "year": 2026,
+  "status": "development",
   "category": "game",
-  "thumbnail": "/projects/placeholder.svg",
+  "thumbnail": "/projects/VerdeandoTheGame/Logo.png",
   "gallery": [
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg"
+    "/projects/VerdeandoTheGame/rizo.png",
+    "/projects/VerdeandoTheGame/login.png",
+    "/projects/VerdeandoTheGame/logro.png",
+    "/projects/VerdeandoTheGame/quiz.png"
   ],
   "technologies": ["Unity", "C#", "ShaderLab"],
   "github": "https://github.com/LeandroDBechara/VerdeandoTheGame",
-  "summary": "Experimental game project in Unity exploring custom visual styles with shader techniques.",
-  "summaryEs": "Proyecto experimental en Unity explorando estilos visuales personalizados con shaders.",
-  "problem": "I wanted to learn game rendering pipelines and create a project where visuals played a central role.",
-  "problemEs": "Queria aprender pipelines de render en juegos y crear un proyecto donde lo visual fuera central.",
-  "solution": "I built gameplay prototypes in Unity and crafted custom shaders in ShaderLab for distinct scenes.",
-  "solutionEs": "Construi prototipos jugables en Unity y cree shaders en ShaderLab para escenas distintivas.",
+  "summary": "Clicker game project in Unity for the Verdeando ecosystem.",
+  "summaryEs": "Proyecto de juego clicker en Unity para el ecosistema Verdeando.",
+  "problem": "Verdeando needed an educational and interactive game to promote sustainable practices from an early age.",
+  "problemEs": "Verdeando busca una experiencia educativa e interactiva para promover practicas saludables desde edades tempranas.",
+  "solution": "I built a clicker game in Unity with a custom visual style and gameplay mechanics that are easy to understand and play.",
+  "solutionEs": "Construi un juego clicker con un estilo visual natural y mecánicas de juego faciles de entender y jugar.",
   "challenges": [
-    "Balancing game feel with rendering complexity",
-    "Debugging shader behavior across scene lighting",
-    "Keeping frame times stable during visual effects"
+    "Ecosistem integration",
+    "Incremental gameplay balance",
+    "Visual identity definition",
+    "Shared reward system balance"
   ],
   "challengesEs": [
-    "Balancear game feel con complejidad de render",
-    "Depurar shaders con diferentes condiciones de luz",
-    "Mantener FPS estables durante efectos visuales"
+    "Integracion con el ecosistema Verdeando",
+    "Balance de la progresion incremental del juego",
+    "Definicion la identidad visual del juego",
+    "Balance del sistema de recompensas compartido"
   ],
   "features": [
-    "Custom shader-based visual style",
-    "Prototype gameplay loops",
-    "Reusable scene and material setup"
+    "Simple and incremental gameplay",
+    "Educational trivia",
+    "Shared reward system"
   ],
   "featuresEs": [
-    "Estilo visual basado en shaders personalizados",
-    "Bucles de gameplay prototipo",
-    "Setup reutilizable de escenas y materiales"
+    "Juego en bucle, simple e incremental",
+    "Trivias educativas",
+    "Sistemas de recompensas compartido"
   ],
-  "architecture": "Unity scenes and gameplay scripts with ShaderLab materials driving visual identity.",
-  "architectureEs": "Escenas y scripts en Unity con materiales ShaderLab como base de identidad visual."
+  "architecture": "Unity scene-based module architecture with backend API communication.",
+  "architectureEs": "Arquitectura de modulos por escenas en Unity con comunicacion con API backend."
 }

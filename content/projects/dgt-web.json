@@ -5,40 +5,45 @@
   "year": 2022,
   "status": "open-source",
   "category": "web",
-  "thumbnail": "/projects/placeholder.svg",
+  "thumbnail": "/projects/DGT-Web/Logo.svg",
   "gallery": [
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg"
+    "/projects/DGT-Web/DGT-Web-Infracciones.jpeg",
+    "/projects/DGT-Web/DGT-Web-Leg.jpeg",
+    "/projects/DGT-Web/DGT-Web-Map.jpeg"
+
   ],
-  "technologies": ["JavaScript", "HTML", "CSS"],
+  "technologies": ["JavaScript","React", "CSS","Vitest"],
   "github": "https://github.com/LeandroDBechara/DGT_Web",
-  "summary": "Web project built with JavaScript, HTML and CSS, focused on solid front-end fundamentals.",
-  "summaryEs": "Proyecto web construido con JavaScript, HTML y CSS, enfocado en bases solidas de front-end.",
-  "problem": "The goal was to build and polish practical web development skills through a complete project.",
-  "problemEs": "El objetivo fue construir y pulir habilidades practicas de desarrollo web con un proyecto completo.",
+  "summary": "Web project built for the General Directorate of Transport.",
+  "summaryEs": "Proyecto web construido para la Dirección General de Transporte.",
+  "problem": "The goal was to modernize the processes and services offered to the citizen by the General Directorate of Transport.",
+  "problemEs": "El objetivo fue la modernización de trámites y servicios ofrecidos al ciudadano por parte de la Dirección General de Transporte.",
   "solution": "I delivered a clean web implementation with interactive sections and reusable UI patterns.",
   "solutionEs": "Entregue una implementacion web limpia con secciones interactivas y patrones UI reutilizables.",
   "challenges": [
-    "Organizing project structure without a framework",
-    "Maintaining visual consistency across pages",
-    "Building responsive layouts from scratch"
+    "Renovation of the image",
+    "Effective and precise communication with visitors",
+    "Data and content management",
+    "Responsive and accessible interface"
   ],
   "challengesEs": [
-    "Organizar estructura del proyecto sin framework",
-    "Mantener consistencia visual entre paginas",
-    "Construir layouts responsive desde cero"
+    "Renovacion de imagen",
+    "Comunicacion efectiva y precisa con los visitantes",
+    "Gestion de datos y contenido",
+    "Interfaz responsive y accesible"
   ],
   "features": [
     "Responsive user interface",
-    "Vanilla JavaScript interactions",
-    "Reusable CSS components"
+    "Interactive bus line search",
+    "Transport fine status inquiry",
+    "Secure portal for CRUD operations"
   ],
   "featuresEs": [
     "Interfaz responsive",
-    "Interacciones en JavaScript vanilla",
-    "Componentes CSS reutilizables"
+    "Consulta interactiva de líneas de colectivo",
+    "Consulta de estados de multas de transporte",
+    "Portal seguro para operaciones CRUD de la organizacion"
   ],
-  "architecture": "Static web architecture with modular JavaScript and component-style CSS organization.",
-  "architectureEs": "Arquitectura web estatica con JavaScript modular y organizacion CSS tipo componentes."
+  "architecture": "Static web architecture with modular JavaScript and component-style CSS organization and unit tests with Vitest.",
+  "architectureEs": "Arquitectura web estatica con JavaScript modular y organizacion CSS tipo componentes y verificaciones unitarias con Vitest."
 }

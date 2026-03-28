@@ -5,41 +5,47 @@
   "year": 2024,
   "status": "production",
   "category": "mobile",
-  "thumbnail": "/projects/placeholder.svg",
+  "thumbnail": "/projects/VerdeandoApp/Logo.png",
   "gallery": [
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg",
-    "/projects/placeholder.svg"
+    "/projects/VerdeandoApp/login.jpg",
+    "/projects/VerdeandoApp/inicio.jpg",
+    "/projects/VerdeandoApp/mapa.jpg",
+    "/projects/VerdeandoApp/puntoverde.jpg",
+    "/projects/VerdeandoApp/intercambio.jpg",
+    "/projects/VerdeandoApp/noticia.jpg"
   ],
   "technologies": ["React Native", "TypeScript", "NestJS", "PostgreSQL"],
   "github": "https://github.com/LeandroDBechara/VerdeandoApp",
   "apk": "",
-  "summary": "Mobile app focused on plant care and sustainable habits with guided user journeys.",
-  "summaryEs": "Aplicacion mobile enfocada en cuidado de plantas y habitos sostenibles con recorridos guiados.",
+  "summary": "Mobile app focused on encouraging sustainable recycling habits and environmental care.",
+  "summaryEs": "Aplicacion mobile enfocada en incentivar la adopcion de habitos sostenibles de reciclaje y el cuidado medioambiental.",
   "problem": "People interested in sustainability often need practical, daily guidance and quick access to trusted information.",
-  "problemEs": "Las personas interesadas en sostenibilidad necesitan guia practica diaria y acceso rapido a informacion confiable.",
-  "solution": "I built a mobile-first experience that centralizes plant care tips, educational content and progress tracking.",
-  "solutionEs": "Construí una experiencia mobile-first que centraliza consejos de cuidado, contenido educativo y seguimiento de progreso.",
+  "problemEs": "Promover prácticas de cuidado ambiental que fomenten hábitos sostenibles relacionados con el reciclaje y la correcta gestión de residuos.",
+  "solution": "I built a mobile-first experience that centralizes recycling points, informative content, progress tracking and reward acquisition.",
+  "solutionEs": "Construí una experiencia mobile-first que centraliza puntos de reciclaje, contenido informativo, seguimiento de progreso y obtencion de recompensas.",
   "challenges": [
     "Designing a clear onboarding flow for non-technical users",
     "Keeping mobile performance consistent on low-end devices",
-    "Synchronizing app data with backend services"
+    "Synchronizing app data with backend services",
+    "Designing a clear reward system for users"
   ],
   "challengesEs": [
-    "Disenar un onboarding claro para usuarios no tecnicos",
     "Mantener rendimiento estable en dispositivos de gama baja",
-    "Sincronizar los datos de la app con servicios backend"
+    "Sincronizar los datos de la app con servicios backend",
+    "Disenar un sistema de recompensas claro para usuarios"
   ],
   "features": [
-    "Plant profile and care recommendations",
-    "Educational sustainability content",
+    "Recycling points catalog",
+    "Informative content about sustainability",
+    "Progress tracking and reward acquisition",
     "Progress-oriented UX and reminders"
   ],
   "featuresEs": [
-    "Perfiles de plantas y recomendaciones de cuidado",
-    "Contenido educativo sobre sostenibilidad",
-    "UX orientada a progreso y recordatorios"
+    "Catalogo de puntos de reciclaje",
+    "Contenido informativo sobre el reciclaje",
+    "Seguimiento de progreso y recordatorios de reciclaje",
+    "Obtencion de recompensas por el reciclaje"
   ],
-  "architecture": "React Native client consuming API endpoints, with modular features for onboarding, catalog and tracking.",
-  "architectureEs": "Cliente React Native consumiendo endpoints API, con modulos para onboarding, catalogo y seguimiento."
+  "architecture": "React Native client consuming API endpoints, with modular features for users, recycling points, rewards and news.",
+  "architectureEs": "Cliente React Native consumiendo endpoints API, con modulos para usuarios, puntos de reciclaje, recompensas y noticias."
 }

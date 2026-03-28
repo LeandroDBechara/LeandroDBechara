@@ -8,9 +8,10 @@ import type { Project } from "./types";
 const projects = [
   verdeandoApp,
   verdeandoBack,
-  metalcNet,
   verdeandoTheGame,
   dgtWeb,
+  metalcNet,
+  
 ] as Project[];
 
 export function getProjects() {

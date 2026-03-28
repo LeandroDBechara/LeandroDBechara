@@ -1,5 +1,5 @@
 import { Button } from "@/components/Button";
-import { ProjectImage } from "@/components/ProjectImage";
+import { ProjectGallery } from "@/components/ProjectGallery";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import { SectionHeading } from "@/components/SectionHeading";
 import { TechBadge } from "@/components/TechBadge";
@@ -79,17 +79,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
         </ScrollAnimation>
 
         <section className="mb-10">
-          <div className="grid gap-4 md:grid-cols-3">
-            {project.gallery.map((image, index) => (
-              <ScrollAnimation key={image} delay={index * 0.1}>
-                <ProjectImage
-                  src={image}
-                  alt={`${title} screenshot ${index + 1}`}
-                  className="h-56 w-full rounded-2xl border border-[var(--border)] object-cover"
-                />
-              </ScrollAnimation>
-            ))}
-          </div>
+          <ProjectGallery images={project.gallery} title={title} />
         </section>
 
         <section className="mb-10 grid gap-6 lg:grid-cols-2">

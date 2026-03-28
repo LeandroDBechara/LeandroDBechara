@@ -47,46 +47,31 @@ export default async function HomePage({ params }: HomePageProps) {
       <section className="section-spacing">
         <div className="container-width">
           <ScrollAnimation className="rounded-3xl border border-[var(--border)] bg-[var(--bg-secondary)] p-6 md:p-10">
-            <p className="mb-4 font-mono text-sm text-[var(--accent)]">ART / UTC-3</p>
-            <h1 className="text-4xl font-extrabold leading-tight md:text-[3.5rem]">
-              {t("hero.title")}
-            </h1>
-            <p className="mt-4 text-lg text-[var(--text-secondary)]">{t("hero.tagline")}</p>
-            <p className="mt-6 max-w-3xl text-[var(--text-secondary)]">{t("hero.description")}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/projects" locale={locale}>
-                <Button>{t("hero.cta_projects")} →</Button>
-              </Link>
-              <a href="#contact">
-                <Button variant="secondary">{t("hero.cta_contact")}</Button>
-              </a>
+            <div className="flex flex-col items-center gap-8 md:flex-row">
+              <div className="shrink-0">
+                <div className="size-32 overflow-hidden rounded-full border-2 border-[var(--accent)] md:size-40">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/95056685?v=4"
+                    alt="Leandro David Bechara"
+                    className="size-full object-cover"
+                  />
+                </div>
+              </div>
+              <div className="flex-1 text-center md:text-left">
+                <p className="mb-4 font-mono text-sm text-[var(--accent)]">ART / UTC-3</p>
+                <h1 className="text-4xl font-extrabold leading-tight md:text-[3.5rem]">
+                  {t("hero.title")}
+                </h1>
+                <p className="mt-4 text-lg text-[var(--text-secondary)]">{t("hero.tagline")}</p>
+                <p className="mt-6 max-w-3xl text-[var(--text-secondary)]">{t("hero.description")}</p>
+                <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
+                  <a href="#contact">
+                    <Button variant="secondary">{t("hero.cta_contact")}</Button>
+                  </a>
+                </div>
+              </div>
             </div>
           </ScrollAnimation>
-        </div>
-      </section>
-
-      <section className="section-spacing">
-        <div className="container-width">
-          <SectionHeading
-            title={t("projects.preview_title")}
-            subtitle={t("projects.subtitle")}
-          />
-          <div className="grid gap-6 md:grid-cols-2">
-            {featuredProjects.map((project, index) => (
-              <ScrollAnimation key={project.slug} delay={index * 0.1}>
-                <ProjectCard
-                  project={project}
-                  locale={locale}
-                  viewLabel={t("projects.view_project")}
-                />
-              </ScrollAnimation>
-            ))}
-          </div>
-          <div className="mt-6">
-            <Link href="/projects" locale={locale}>
-              <Button variant="ghost">{t("projects.view_all")} →</Button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -110,6 +95,31 @@ export default async function HomePage({ params }: HomePageProps) {
                 </div>
               </ScrollAnimation>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" className="section-spacing">
+        <div className="container-width">
+          <SectionHeading
+            title={t("projects.preview_title")}
+            subtitle={t("projects.subtitle")}
+          />
+          <div className="grid gap-6 md:grid-cols-2">
+            {featuredProjects.map((project, index) => (
+              <ScrollAnimation key={project.slug} delay={index * 0.1}>
+                <ProjectCard
+                  project={project}
+                  locale={locale}
+                  viewLabel={t("projects.view_project")}
+                />
+              </ScrollAnimation>
+            ))}
+          </div>
+          <div className="mt-6">
+            <Link href="/projects" locale={locale}>
+              <Button variant="ghost">{t("projects.view_all")} →</Button>
+            </Link>
           </div>
         </div>
       </section>
