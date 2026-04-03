@@ -7,7 +7,7 @@ import { Link } from "@/lib/i18n/navigation";
 import type { AppLocale } from "@/lib/i18n/routing";
 import { getFeaturedProjects } from "@/lib/projects";
 import { getTranslations } from "next-intl/server";
-import { Mail } from "lucide-react";
+import { Download, Mail } from "lucide-react";
 import type { Metadata } from "next";
 
 type HomePageProps = {
@@ -67,6 +67,15 @@ export default async function HomePage({ params }: HomePageProps) {
                 <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
                   <a href="#contact">
                     <Button variant="secondary">{t("hero.cta_contact")}</Button>
+                  </a>
+                  <a
+                    href="/CV-Leandro%20David%20Bechara.pdf"
+                    download="CV-Leandro-David-Bechara.pdf"
+                  >
+                    <Button className="gap-2">
+                      <Download className="size-4 shrink-0" aria-hidden />
+                      {t("hero.cta_cv")}
+                    </Button>
                   </a>
                 </div>
               </div>
